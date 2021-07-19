@@ -1,0 +1,65 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+}
+
+.form > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label {
+  width: 200px;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.form label > input {
+  width: 200px;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+  text-align: center;
+  box-shadow: 1px 1px 2px 2px #00000090;
+  font-size: 1rem;
+}
+
+.send-task {
+  max-width: 50%;
+  margin: 1rem 0 0 0;
+  padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+  cursor: pointer;
+  background-color: #6eb4dc;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 0px 0px #00000090;
+  font-weight: bold;
+}
+
+.send-task:hover {
+  background-color: #598caa;
+  color: var(--white);
+}
+
+.send-task:active {
+  background-color: #6eb4dc;
+  color: var(--white);
+}
+
+@media screen and (min-width: 1024px) {
+  .form > div {
+    width: 400px;
+  }
+  .form label {
+    width: 350px;
+    margin-top: 1rem;
+  }
+
+  .form label > input {
+    width: 100%;
+  }
+}

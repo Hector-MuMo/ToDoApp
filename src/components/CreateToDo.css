@@ -1,0 +1,33 @@
+/*ToDo */
+.task {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0 0 0;
+  background-color: #c846cf;
+  border-radius: 0.3rem;
+  transition: background-color ease 0.5s;
+}
+
+.task > .todo {
+  margin: 0.8rem;
+  max-width: 60%;
+}
+
+.task > .todo > p {
+  color: #0500ff;
+  font-weight: bold;
+  text-align: start;
+}
+
+.task > .check-del {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: auto 0.5rem auto 0;
+}
+
+.task > .check-del > input {
+  margin-right: 0.5rem;
+}

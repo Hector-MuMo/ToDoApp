@@ -1,0 +1,30 @@
+.check-del > input {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: solid 3px green;
+  border-radius: 50px;
+}
+
+.check-del input[type="checkbox"]:checked {
+  box-shadow: 0 0 3px 3px #4f55d8;
+}
+
+.check-del > button {
+  width: 25px;
+  color: var(--white);
+  font-size: 1.2rem;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.check-del > button:hover {
+  background-color: var(--white);
+  color: red;
+  opacity: 1;
+}
